@@ -1,10 +1,11 @@
 from googlesearch import search
 
-query = "Harisudhan "
-result = search(query, num_results=10, safe = None, lang="en")
+query = "Walter L. Kuehnlein Managing Advisor terra.blue"
+result = search(query, num_results=1, safe = None, lang="en")
 
 url_array = []
 
 for url in result:
-    print(url_array.append(i))
+    url_array.append(url)
 
+print("List of URL's : ",url_array)
